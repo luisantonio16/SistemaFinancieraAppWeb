@@ -96,7 +96,7 @@ export default function App() {
               <span className="w-2.5 h-6 bg-blue-500 rounded-sm shadow-md animate-pulse"></span>
               <span className="w-2.5 h-6 bg-white rounded-sm shadow-md"></span>
               <span className="w-2.5 h-6 bg-rose-500 rounded-sm shadow-md animate-pulse"></span>
-              <span className="font-extrabold text-base tracking-wider font-sans leading-none bg-gradient-to-r from-white via-slate-100 to-indigo-100 bg-clip-text text-transparent">AutoFin RD</span>
+              {/* <span className="font-extrabold text-base tracking-wider font-sans leading-none bg-gradient-to-r from-white via-slate-100 to-indigo-100 bg-clip-text text-transparent">AutoFin RD</span> */}
             </div>
             <p className="text-[10px] text-indigo-400 font-extrabold uppercase tracking-widest font-mono">República Dominicana</p>
           </div>
@@ -244,12 +244,8 @@ export default function App() {
 
         {/* System copyright bottom status bar */}
         <footer className="bg-white border-t border-slate-200/60 py-3.5 px-8 text-center text-[10px] text-slate-400 flex flex-col sm:flex-row justify-between items-center gap-2 shrink-0 shadow-inner">
-          <p className="font-medium text-slate-500">© 2026 AutoFin RD • Sistema Unificado de Gestión de Financiamiento Vehicular Dominicana</p>
-          <div className="flex items-center gap-1 font-semibold text-slate-600">
-            <span>Desarrollado con</span>
-            <Heart className="h-3 w-3 text-rose-500 fill-rose-500 animate-pulse" />
-            <span>para República Dominicana</span>
-          </div>
+          <p className="font-medium text-slate-500">© 2026 Sistema de financiera RD • Sistema Unificado de Gestión de Financiamiento Vehicular Dominicana</p>
+         
         </footer>
       </main>
     </div>

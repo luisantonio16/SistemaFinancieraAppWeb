@@ -70,10 +70,10 @@ export function generarTablaAmortizacion(
 export const PRESET_USERS: User[] = [
   {
     id: 'usr1',
-    name: 'Ing. Alejandro Almonte',
-    username: 'aalmonte',
+    name: 'Ing. Luis Melenciano',
+    username: 'L.Melenciano',
     role: 'Administrador',
-    email: 'a.almonte@autofinanzas.do',
+    email: 'l.Melenciano@autofinanzas.do',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop'
   },
   {
